@@ -1,0 +1,18 @@
+{% extends '_base.html' %}
+{% load static %}
+
+{% block title %}Home{% endblock title %}
+
+{% block content %}
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover">
+        <h1 class="cover-heading">Django To Do App</h1>
+        <p class="lead">
+            A simple to do app
+        </p>
+        <p class="lead">
+            <a href="{% url 'todo' %}" class="btn btn-lg btn-secondary">Create Your First To Do!</a>
+        </p>
+        </main>
+    </div>
+{% endblock content %}

@@ -1,0 +1,1 @@
+# All-auth accomplishes our need for views in the accounts app!
